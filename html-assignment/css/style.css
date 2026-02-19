@@ -1,0 +1,63 @@
+/* Inheritance - change font and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* Select multiple elements */
+header, footer {
+    background-color: purple;
+    padding: 10px;
+}
+
+/* Class selector */
+.site-title {
+    color:rgb(70, 215, 13);
+}
+
+/* ID selector */
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+    width: 300px;
+    height: auto;
+}
+
+/* Replace bullets with squares */
+.hobby-list {
+    list-style-type:square;
+}
+dl {
+    margin-left: 20px;
+    
+}
+
+
+dd {
+    margin-left: 20px;
+}
+
+/* nth-child selector */
+.hobby-list li:nth-child(odd) {
+    background-color:pink;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+/* Hover effect */
+nav a:hover,
+nav a:focus {
+    background-color: darkblue;
+    color: white;
+}
