@@ -1,0 +1,136 @@
+/* Page background */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#AAD4CF ;
+}
+
+/* Main  container */
+.container {
+    width: 850px;
+    margin: 0 auto;
+    background-color: #D4E9E7;
+}
+/* Header */
+.banner {
+    position: relative;
+}
+
+/* Header image */
+.banner img {
+    width: 100%;
+    display: block;
+}
+
+/* Header title on image */
+.banner h1 {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    color: white;
+    font-size: 48px;
+    font-weight: normal;
+}
+/* Navigation menu */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Navigation items */
+nav li {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid gray;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+/* Navigation links */
+nav a {
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+/* Main content area */
+main {
+    padding: 20px;
+}
+
+/* Section titles */
+h2 {
+    margin-top: 0;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+/* Story image */
+.story-image {
+    width: 180px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+/* Clear float after story */
+.story::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/* Facts list */
+.facts ul {
+    padding-left: 20px;
+    margin-top: 0;
+}
+/* Contact form */
+.contact form {
+    border: 1px solid gray;
+    padding: 15px;
+}
+
+/* Space between form groups */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Labels */
+.form-group label {
+    display: inline;
+    margin-bottom: 5px;
+}
+
+/* Radio labels vertical */
+.radio-label {
+    display: inline;
+    margin-bottom: 8px;
+}
+
+/* Text fields */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+/* Submit button */
+button {
+    padding: 10px 15px;
+    border: 1px solid black;
+    background-color: #d4e9e7;
+}
+/* Footer */
+footer {
+    text-align: right;
+    padding: 20px;
+}
